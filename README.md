@@ -1,3 +1,5 @@
+![image](https://github.com/vyniivaa-dev/react-first/assets/88711787/04141558-c304-4171-adad-180e0958aadf)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
