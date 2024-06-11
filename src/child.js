@@ -1,8 +1,13 @@
 import React from 'react'
 
-function child() {
+function child({n, a, v, y}) {
   return (
-    <div>child</div>
+   <div>
+		<div>{n}</div>
+		<div>{a}</div>
+		<div>{v}</div>
+		<div>{y}</div>
+   </div>
   )
 }
 

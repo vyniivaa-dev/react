@@ -1,15 +1,13 @@
 import { useState } from "react";
-import Child from "./child"
+import Child from "./child";
 function App() {
 
-  const [name] = useState("John");
-  console.log(name);
-
-
+const [name, setName] = useState("Joe");
+ 
   return (
     <>
-      <h1>Hello</h1>
-      <Child />
+      <h1>{name}</h1>
+      <Child n={name} a={"a"} v={"v"} y={"y"} />
     </>
   );
 }
