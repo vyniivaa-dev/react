@@ -1,13 +1,17 @@
-import { useState } from "react";
-import Child from "./child";
+import { useEffect, useState } from "react";
+import Navbar from "./child";
 function App() {
 
-const [name, setName] = useState("Joe");
+  const [name, setName] = useState("Joe");
+  console.log(name);
+  useEffect(() => {
+    setName("Jane");
+  }, []);
+
  
   return (
     <>
-      <h1>{name}</h1>
-      <Child n={name} a={"a"} v={"v"} y={"y"} />
+      <Navbar n={name} a={"a"} v={"v"} y={"y"} />
     </>
   );
 }

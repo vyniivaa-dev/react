@@ -1,0 +1,23 @@
+.navbar{
+    background-color: aquamarine;
+}
+
+.space{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+.space ul{
+    display: flex;
+
+}
+
+.space li{
+    display: flex;
+    margin: 0rem 0.5rem;
+    
+}

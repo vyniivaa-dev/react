@@ -1,13 +1,21 @@
 import React from 'react'
+import "./navbar.css"
 
 function child({n, a, v, y}) {
   return (
-   <div>
-		<div>{n}</div>
-		<div>{a}</div>
-		<div>{v}</div>
-		<div>{y}</div>
+   <>	
+	<div className='navbar'>
+		<div className='space'>
+			<h1>LOGO</h1>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Contact</li>
+				<li>Project</li>
+			</ul>
+		</div>
    </div>
+   </>
   )
 }
 
